@@ -4,6 +4,7 @@ require("dotenv").config(); // Load environment variables
 const connectDB = require("./config/db.js")
 const authRoutes = require("./routes/authRoutes.js")
 const taskRoutes = require("./routes/taskRoutes.js")
+require("dotenv").config();
 
 connectDB();
 
